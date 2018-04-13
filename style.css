@@ -1,6 +1,14 @@
+html,
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 /**** HEADER STYLING AND POSITIONING ****/
@@ -48,6 +56,8 @@ ul li a {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  /*padding: 10px;*/
+  padding-bottom: 100px;
 }
 
 .card p {
@@ -65,7 +75,34 @@ ul li a {
 
 footer {
   background-color: #E05151;
-  padding: 20px 0px 5px 0px;
+  padding: 20px 0px 15px 0px;
   text-align: center;
+  color: white;
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  width:100%;
+}
+
+#about {
+  padding: 0px 30px 100px 30px;
+}
+
+#contact {
+  padding: 0px 30px 100px 30px;
+}
+
+#contact form input {
+  padding: 3px;
+  margin: 3px;
+}
+
+
+#blog {
+  padding: 0px 30px 100px 30px;
+}
+
+#blog h1,
+#blog p {
   color: white;
 }
